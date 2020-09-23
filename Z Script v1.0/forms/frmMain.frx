@@ -1,0 +1,21 @@
+явform josde {
+title = helldso
+style = 0, 1, 1, 0, 0, 1
+size = 1000 1000 2120 1000
+button = Click me, ole, 10 10 600 600, style(flat)
+text = I'm a textbox, ola, 100 800 1100 200
+}
+form jos78de {
+title = helldso
+size = 0 0 2120 1000
+button = OOO!, ole, 10 10 600 600
+lable = I'm a label, ola, 100 1000 2000 2000
+}
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+on josde:ole:lclick {
+msgbox (hey mail me at : j23ld@hotmail.com, zCrit, OLA!)
+}
+on jos78de:ole:lclick {
+about
+}
